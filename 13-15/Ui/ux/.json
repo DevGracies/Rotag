@@ -1,0 +1,80 @@
+// Compact JSON machine-readable
+{
+ "overview": {
+   "program_name": "Neominds UI/UX: Design for People (Ages 13-15)",
+   "audience": "Ages 13-15, beginners",
+   "duration": {"standard_weeks": 12, "intensive_weeks": 8},
+   "session": "1 session/week (60-90 min) or 2 sessions/week for intensive",
+   "purpose": "Intro to research, wireframing, prototyping, testing, and presentation",
+   "weekly_time_commitment": {"range_hours": "2-4", "breakdown": {"lesson": "60-90 min","practice": "30-45 min","reflection": "15-30 min"}}
+ },
+ "learning_outcomes": [
+   "Explain users and needs",
+   "Sketch wireframes and explain choices",
+   "Build a clickable or paper prototype",
+   "Run short usability tests and list improvements",
+   "Apply basic visual design rules",
+   "Present a 2-minute demo",
+   "Recommend accessibility changes"
+ ],
+ "weeks": [
+   {"week":1,"title":"What is UI / UX? Meet the user","objective":"Learn definitions and make a user card","key_concepts":["user","interface","experience","problem","empathy"],"artifact":"user card","activity_steps":["Intro (3 min)","List 3 daily items (3 min)","Pick one and note a problem (5 min)","Create user card template (10 min)","Share in pairs (10 min)"],"offline":"index cards","reflection":"Who is my user and what do they need?"},
+   {"week":2,"title":"Notice & Research","objective":"Do quick observation & interview","key_concepts":["observation","interview","notes","bias"],"artifact":"research sheet","activity_steps":["Show note template (5 min)","Observe demo and note (10 min)","3-min pair interviews (10 min)","Write 3 insights (10 min)"],"offline":"observe family member","reflection":"What surprised you most?"},
+   {"week":3,"title":"Define the problem & set a goal","objective":"Make HMW & one-line goal","key_concepts":["problem statement","HMW","goal","constraints"],"artifact":"HMW statement","activity_steps":["Review notes (5 min)","Write problem statement (5 min)","Rewrite as HMW (5 min)","Set 1-line goal (5 min)","Share & pick class goal (15 min)"],"offline":"sort HMW cards","reflection":"What would success look like?"},
+   {"week":4,"title":"Ideas & paper sketching","objective":"Generate ideas and thumbnail wireframes","key_concepts":["brainstorm","quantity","thumbnail"],"artifact":"3 thumbnail sketches","activity_steps":["Crazy idea warm-up (2 min)","Silent 6-6-6 sketch (10 min)","Pick best idea & draw 3 thumbnails (15 min)","Label screens (5 min)"],"offline":"sticky note screens","reflection":"Which idea was easiest to explain?"},
+   {"week":5,"title":"Layout & typography","objective":"Make screens readable and scannable","key_concepts":["hierarchy","size","contrast","alignment"],"artifact":"visual hierarchy wireframe","activity_steps":["Show examples (5 min)","Mark headline/buttons (10 min)","Adjust sizes/placement (10 min)","Share choice (10 min)"],"offline":"cut colored shapes","reflection":"What did you make bigger and why?"},
+   {"week":6,"title":"Color, icons & branding","objective":"Choose colors/icons that help users","key_concepts":["contrast","meaning","icon clarity","accessibility"],"artifact":"color palette & 3 icons","activity_steps":["Demo color contrast (5 min)","Pick 2 colors + accent (10 min)","Draw 3 icons (15 min)","Apply to wireframe (10 min)"],"offline":"colored pencils/stickers","reflection":"Which color felt friendliest?"},
+   {"week":7,"title":"Basic prototyping","objective":"Make a testable paper or digital prototype","key_concepts":["prototype","flow","tap targets","feedback"],"artifact":"paper or digital prototype","activity_steps":["Explain purpose (5 min)","Create paper screens (15 min)","Practice running prototype (10 min)","Demo digital tool if available (10 min)"],"offline":"flipbook prototype","reflection":"What did tester expect but not get?"},
+   {"week":8,"title":"Usability testing","objective":"Run short tests and collect notes","key_concepts":["scenario","tasks","think-aloud","notes"],"artifact":"test script + notes","activity_steps":["Write 2 tasks (10 min)","Demo think-aloud (5 min)","Run tests in pairs (20 min)","List top 3 improvements (10 min)"],"offline":"family test with paper prototype","reflection":"What one change matters most?"},
+   {"week":9,"title":"Iteration","objective":"Fix top issues and simplify","key_concepts":["iteration","MVP","prioritize"],"artifact":"improved prototype","activity_steps":["Mark problems by severity (10 min)","Pick top 3 fixes (15 min)","Update prototype (20 min)","Peer review (5 min)"],"offline":"redraw fixes","reflection":"Which fix did users like most?"},
+   {"week":10,"title":"Accessibility & inclusive design","objective":"Improve accessibility","key_concepts":["contrast","tap targets","alt text"],"artifact":"accessibility checklist + adjusted screen","activity_steps":["Examples (5 min)","Adjust sizes/contrast (15 min)","Add alt text (10 min)","Create checklist (10 min)"],"offline":"family readability test","reflection":"What change made it easier to use?"},
+   {"week":11,"title":"Visual polish & presentation","objective":"Polish visuals and prepare demo","key_concepts":["alignment","spacing","consistency","elevator pitch"],"artifact":"final prototype + demo script","activity_steps":["Check margins & icons (10 min)","Practice 90-120s demo (20 min)","Peer feedback (10 min)"],"offline":"print screens and practice demo","reflection":"What’s the clearest thing to say?"},
+   {"week":12,"title":"Final testing & showcase","objective":"Do final fix and present","key_concepts":["final polish","feedback loop","celebration"],"artifact":"showcase deliverables","activity_steps":["Last tests & fixes (10-15 min)","Student demos (40-60 min)","Group reflection (10 min)"],"offline":"family showcase","reflection":"What are you proud of and what next?"}
+ ],
+ "tools": [
+   {"name":"Figma","what":"browser design & prototyping","why":"clickable prototypes","how":"free account, frames, link frames","offline_equivalent":"paper cards"},
+   {"name":"Pen & Paper / Sticky Notes","what":"ideation & prototyping","why":"fast & inclusive","how":"draw screens on cards"},
+   {"name":"Phone camera / Loom","what":"record demo","why":"shareable evidence","how":"record 1-2 min video","offline_equivalent":"live demo"},
+   {"name":"User Test Script (doc)","what":"test plan template","why":"consistent tests","how":"copy template and write 2 tasks"}
+ ],
+ "mini_projects": [
+   "Redesign school lunch app",
+   "Route planner for walking to school",
+   "Lost & found mini-site",
+   "Study-timer app",
+   "Neighborhood event sign-up page",
+   "Accessibility toggle",
+   "Teen artist portfolio",
+   "Onboarding flow for new student",
+   "Interactive local market map",
+   "Habit tracker"
+ ],
+ "capstone": {
+   "beginner":{"name":"Student Helper App","description":"Small app solving 1 problem","required_features":["user card","research","3 wireframes","paper/digital prototype","2-min demo"],"milestones":["week2 research","week4 sketches","week7 prototype","week11 polish"]},
+   "intermediate":{"name":"Local Finder","description":"Find local services flow","required_features":["research summary","user flows","5 wireframes","clickable prototype","2-min demo"],"milestones":["research","sketches","prototype","tests","final demo"]},
+   "advanced":{"name":"Community Service Portal","description":"Polished prototype + test report","required_features":["3+ user research","wireframes","hi-fidelity prototype","accessibility checklist","2-min pitch","test summary"],"milestones":["research & persona","mid-fidelity prototype","testing rounds","final polish"]}
+ },
+ "rubric": {
+   "levels":["Excellent","Good","Satisfactory","Needs Help"],
+   "criteria":["Understanding","Creativity","Effort","Practical Application","Explanation & Confidence"]
+ },
+ "lesson_templates": {
+   "single_lesson":{"length_minutes":60,"structure":["Hook (5)","Teach (10)","Guided activity (25)","Pair share (10)","Exit ticket (5)"],"differentiation":["sentence starters","draw instead of write","extra time"]},
+   "mini_lesson":{"length_minutes":15,"structure":["Bad vs good (2)","Demo (5)","Student try (5)","Show & tell (3)"]}
+ },
+ "materials": {"minimal_tech":["pen","paper","sticky notes","index cards","scissors","colored pencils"],"free_tools":["Figma","Google Slides"],"low_bandwidth":["paper prototypes","printed posters"]},
+ "assessments": {
+   "pre_course_survey":["Have you sketched an app before? (Y/N)","What problem would you like to solve?","Prefer drawing or device?"],
+   "weekly_reflection_prompts":"Use weekly reflection questions in each week",
+   "final_checklist":["research summary","HMW","wireframes","prototype","test notes","2-min demo"]
+ },
+ "family_summary":"One-page plain-language summary covering what students learn, why it matters, how to support, safety guidance, time",
+ "assets": {
+   "slide_outline_10":"Title, What is UI/UX, Why it matters, Example, User card, Research steps, Activity, Pair script, Homework, Reflection",
+   "usability_test_worksheet":"Task1, Task2, Tester notes, Biggest problem, Fix idea",
+   "glossary":["User","Interface","Prototype","Wireframe","Usability test","Persona","HMW","Hierarchy","Accessibility","Iteration"]
+ },
+ "extensions":["Animation challenge","Half-day workshop plan","Group vs individual assessment variations"]
+}
+
+

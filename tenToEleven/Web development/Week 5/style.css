@@ -1,0 +1,9 @@
+/* style.css (Week5) */
+body { font-family: Arial, sans-serif; margin: 10px; color:#222; }
+.container { display:flex; gap: 10px; align-items:flex-start; }
+.left { flex:1; }
+.right { flex:1; }
+@media (max-width:600px) {
+  .container { flex-direction:column; }
+}
+

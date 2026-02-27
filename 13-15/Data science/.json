@@ -1,0 +1,548 @@
+// Machine-readable JSON 
+// 12-week version
+{
+ "title": "Data Detectives",
+ "age_range": "13-15",
+ "duration_weeks": 12,
+ "sessions_per_week": 2,
+ "session_length_minutes": 75,
+ "weekly": [
+   {
+     "week": 1,
+     "session": 1,
+     "learning_objective": "I can ask a good question and pick data to answer it.",
+     "vocabulary": ["question","data","variable","survey","sample"],
+     "activities": [
+       {
+         "title": "Class brainstorm & survey design",
+         "steps": [
+           "Brainstorm 6 ideas for numbers to study (10 min).",
+           "Discuss what makes a good question (10 min).",
+           "In pairs, design a 5-question survey (25 min).",
+           "Collect 10 answers from classmates (20 min)."
+         ],
+         "time_min": 65,
+         "materials": ["paper","pens","whiteboard"],
+         "offline_alternative": "Paper survey + tally marks.",
+         "differentiation": {"support":"Use a checklist for good questions.","core":"Design a 5-question survey.","extend":"Add one 1-5 scale question and explain why."}
+       }
+     ],
+     "assessment": "Write one question your data could answer.",
+     "reflection_questions": ["Which question feels easiest to answer with numbers?"]
+   },
+   {
+     "week": 1,
+     "session": 2,
+     "learning_objective": "I can show small data using a paper chart.",
+     "vocabulary": ["tally","bar chart","category","count"],
+     "activities": [
+       {
+         "title": "Make paper bar chart",
+         "steps": [
+           "Tally survey responses (5 min).",
+           "Compute totals per category (10 min).",
+           "Draw x/y axes and bars on paper (20 min).",
+           "Write a 2-sentence data story and share (20 min)."
+         ],
+         "time_min": 55,
+         "materials": ["graph paper","markers"],
+         "offline_alternative": "All on paper; use chalkboard for sharing.",
+         "differentiation": {"support":"Use a printed bar chart template.","core":"Make chart and story.","extend":"Calculate and add percentages."}
+       }
+     ],
+     "assessment": "One-sentence summary of the chart.",
+     "reflection_questions": ["What surprised you in the chart?"]
+   },
+   {
+     "week": 2,
+     "session": 1,
+     "learning_objective": "I can name types of data and decide which to collect.",
+     "vocabulary": ["qualitative","quantitative","continuous","categorical","consent"],
+     "activities": [
+       {
+         "title": "Data types sorting and ethics",
+         "steps": [
+           "Mini-lesson on data types with examples (10 min).",
+           "Sort variable cards into types (25 min).",
+           "Short consent & privacy talk; practice asking permission (20 min)."
+         ],
+         "time_min": 55,
+         "materials": ["variable cards","consent script sheet"],
+         "offline_alternative": "Printed cards and roleplay on paper.",
+         "differentiation": {"support":"Sentence starters for consent.","core":"Sort cards and write consent script.","extend":"Create two examples of each data type."}
+       }
+     ],
+     "assessment": "Write how you'd ask permission to use someone's answer.",
+     "reflection_questions": ["How did asking permission change how you felt about collecting answers?"]
+   },
+   {
+     "week": 2,
+     "session": 2,
+     "learning_objective": "I can design a short, ethical data collection plan.",
+     "vocabulary": ["anonymize","consent","sample","survey"],
+     "activities": [
+       {
+         "title": "Write and test a collection plan",
+         "steps": [
+           "Pairs write plan: question, who to ask, storage (15 min).",
+           "Roleplay consent script (20 min).",
+           "Collect 15 responses as planned (30 min)."
+         ],
+         "time_min": 65,
+         "materials": ["paper forms or Google Form","clipboards"],
+         "offline_alternative": "Paper form and sealed envelope for responses.",
+         "differentiation": {"support":"Fill-in-the-blank plan template.","core":"Write full plan and collect data.","extend":"Add a short consent form and anonymize responses."}
+       }
+     ],
+     "assessment": "Teacher checks plan against checklist.",
+     "reflection_questions": ["What was one challenge in collecting the data?"]
+   },
+   {
+     "week": 3,
+     "session": 1,
+     "learning_objective": "I can build a neat table and spot missing or weird values.",
+     "vocabulary": ["table","missing value","error","duplicate","header"],
+     "activities": [
+       {
+         "title": "Cleaning a messy table",
+         "steps": [
+           "Show messy mock data example (10 min).",
+           "Students tidy a messy paper table (30 min).",
+           "Exit ticket: note 2 issues found (10 min)."
+         ],
+         "time_min": 50,
+         "materials": ["printed messy table","pens"],
+         "offline_alternative": "All on paper.",
+         "differentiation": {"support":"List of common fixes.","core":"Tidy table.","extend":"Find pattern in errors and suggest prevention."}
+       }
+     ],
+     "assessment": "List two problems fixed and why.",
+     "reflection_questions": ["Which fix seemed most important?"]
+   },
+   {
+     "week": 3,
+     "session": 2,
+     "learning_objective": "I can compute mean, median, and mode for a small dataset.",
+     "vocabulary": ["mean","median","mode","range","outlier"],
+     "activities": [
+       {
+         "title": "Averages practice",
+         "steps": [
+           "Teach short definitions with example (10 min).",
+           "Compute mean/median/mode for 10 numbers (30 min).",
+           "Compare mean vs median when an outlier exists (20 min)."
+         ],
+         "time_min": 60,
+         "materials": ["worked examples","calculator"],
+         "offline_alternative": "Paper and pencil calculations.",
+         "differentiation": {"support":"Step-by-step worksheet.","core":"Compute three measures.","extend":"Calculate range and discuss outliers."}
+       }
+     ],
+     "assessment": "3 calculation problems (exit ticket).",
+     "reflection_questions": ["Which measure felt most useful and why?"]
+   },
+   {
+     "week": 4,
+     "session": 1,
+     "learning_objective": "I can pick and draw the right chart for a question.",
+     "vocabulary": ["bar chart","line chart","scatter plot","axis","label"],
+     "activities": [
+       {
+         "title": "Chart choice practice",
+         "steps": [
+           "Mini-lesson: when to use each chart (10 min).",
+           "Choose and draw chart for 3 questions (35 min).",
+           "Gallery walk and feedback (15 min)."
+         ],
+         "time_min": 60,
+         "materials": ["paper","markers"],
+         "offline_alternative": "Chalkboard charts.",
+         "differentiation": {"support":"Chart choice guide.","core":"Draw charts and label.","extend":"Add trend or percentages."}
+       }
+     ],
+     "assessment": "Label axes and title for each chart.",
+     "reflection_questions": ["Which chart helped the most to answer your question?"]
+   },
+   {
+     "week": 4,
+     "session": 2,
+     "learning_objective": "I can use Google Sheets to make a chart (or Scratch list chart).",
+     "vocabulary": ["spreadsheet","column","formula","chart type"],
+     "activities": [
+       {
+         "title": "Make a chart in Sheets or Scratch",
+         "steps": [
+           "Demo: load CSV into Sheets or show Scratch list plotting (10 min).",
+           "Guided practice: create bar chart from survey CSV (40 min).",
+           "Export chart as image or screenshot (15 min)."
+         ],
+         "time_min": 65,
+         "materials": ["Google Sheets or Scratch"],
+         "offline_alternative": "Draw chart on paper and take photo.",
+         "differentiation": {"support":"Template sheet with formulas.","core":"Create chart and label.","extend":"Add percentages and annotations."}
+       }
+     ],
+     "assessment": "Screenshot or image of chart submitted.",
+     "reflection_questions": ["What did the chart show you that numbers didn't?"]
+   },
+   {
+     "week": 5,
+     "session": 1,
+     "learning_objective": "I can open a CSV and read its rows and columns (no code).",
+     "vocabulary": ["CSV","header row","row","column","filter"],
+     "activities": [
+       {
+         "title": "Explore a CSV",
+         "steps": [
+           "Demo opening CSV in Sheets and explain parts (10 min).",
+           "Practice: filter rows by a condition (40 min).",
+           "Exit ticket: record how many rows remain (15 min)."
+         ],
+         "time_min": 65,
+         "materials": ["CSV sample","Google Sheets"],
+         "offline_alternative": "Print CSV and use highlighters.",
+         "differentiation": {"support":"Step-by-step filter guide.","core":"Apply filter and explain.","extend":"Create a new computed column like age group."}
+       }
+     ],
+     "assessment": "Number of rows after filter.",
+     "reflection_questions": ["What rows did the filter hide and why?"]
+   },
+   {
+     "week": 5,
+     "session": 2,
+     "learning_objective": "I can summarize a CSV using counts and grouped totals.",
+     "vocabulary": ["group","count","pivot","summary"],
+     "activities": [
+       {
+         "title": "Group and count",
+         "steps": [
+           "Teach grouping example (10 min).",
+           "Use pivot table or COUNTIFS to count by category (40 min).",
+           "Discuss what the grouped table shows (15 min)."
+         ],
+         "time_min": 65,
+         "materials": ["Google Sheets"],
+         "offline_alternative": "Tally and make a summary table on paper.",
+         "differentiation": {"support":"Prebuilt pivot template.","core":"Create grouped counts.","extend":"Sort results and find top categories."}
+       }
+     ],
+     "assessment": "Submit grouped table or photo of paper summary.",
+     "reflection_questions": ["Which group had the most entries and why might that be?"]
+   },
+   {
+     "week": 6,
+     "session": 1,
+     "learning_objective": "I can explain simple chance and calculate basic probabilities.",
+     "vocabulary": ["probability","outcome","likely","unlikely","sample"],
+     "activities": [
+       {
+         "title": "Probability with coin tosses",
+         "steps": [
+           "Demonstrate coin toss and define probability (10 min).",
+           "Group activity: toss coin 20 times and record (30 min).",
+           "Compute frequencies and compare to expected (20 min)."
+         ],
+         "time_min": 60,
+         "materials": ["coins or paper spinners","paper"],
+         "offline_alternative": "Use cards or draw outcomes from a hat.",
+         "differentiation": {"support":"Preformatted table to record results.","core":"Record and compute frequency.","extend":"Run 100 trials in Sheets to compare."}
+       }
+     ],
+     "assessment": "Write observed vs expected frequencies.",
+     "reflection_questions": ["Was the result what you expected? Why or why not?"]
+   },
+   {
+     "week": 6,
+     "session": 2,
+     "learning_objective": "I can explain why how we sample people matters (bias).",
+     "vocabulary": ["sampling","random","bias","representative"],
+     "activities": [
+       {
+         "title": "Sampling experiment",
+         "steps": [
+           "Mini-lesson on sampling and bias (15 min).",
+           "Compare convenience sample vs random sample and collect results (30 min).",
+           "Discuss differences (15 min)."
+         ],
+         "time_min": 60,
+         "materials": ["paper slips for random draw"],
+         "offline_alternative": "Random draw using folded slips.",
+         "differentiation": {"support":"Teacher-guided random selection.","core":"Compare two sample types.","extend":"Design a quick plan to get a representative sample."}
+       }
+     ],
+     "assessment": "Explain one bias found and how to fix it.",
+     "reflection_questions": ["Which sample seemed more fair and why?"]
+   },
+   {
+     "week": 7,
+     "session": 1,
+     "learning_objective": "I can plot a line chart to show change over time.",
+     "vocabulary": ["time series","trend","axis","scale"],
+     "activities": [
+       {
+         "title": "Line chart for change over time",
+         "steps": [
+           "Teach line chart parts (10 min).",
+           "Plot weekly step counts or scores on paper or Sheets (35 min).",
+           "Write a trend sentence as exit ticket (15 min)."
+         ],
+         "time_min": 60,
+         "materials": ["dataset","graph paper or Sheets"],
+         "offline_alternative": "Hand-drawn line chart on paper.",
+         "differentiation": {"support":"Guided plotting template.","core":"Plot and describe trend.","extend":"Estimate slope (rise/run) by hand."}
+       }
+     ],
+     "assessment": "Short trend sentence.",
+     "reflection_questions": ["What happens in the data that explains the trend?"]
+   },
+   {
+     "week": 7,
+     "session": 2,
+     "learning_objective": "I can make a scatter plot to look for patterns.",
+     "vocabulary": ["scatter plot","correlation","pattern","cluster"],
+     "activities": [
+       {
+         "title": "Scatter plot and pattern search",
+         "steps": [
+           "Demo scatter example (10 min).",
+           "Plot pairs of numbers and look for pattern (40 min).",
+           "Exit ticket: write yes/no if pattern exists and why (15 min)."
+         ],
+         "time_min": 65,
+         "materials": ["graph paper or Sheets"],
+         "offline_alternative": "Draw points on large paper.",
+         "differentiation": {"support":"Prepaired axes and labels.","core":"Plot and identify pattern.","extend":"Describe type of relationship (positive/negative)."}
+       }
+     ],
+     "assessment": "Yes/No + short reason about pattern.",
+     "reflection_questions": ["What could make the pattern stronger or weaker?"]
+   },
+   {
+     "week": 8,
+     "session": 1,
+     "learning_objective": "I can explain predicting one number from another (line of best fit concept).",
+     "vocabulary": ["predict","model","regression","trend line"],
+     "activities": [
+       {
+         "title": "Predicting by eye",
+         "steps": [
+           "Teach concept with drawing (15 min).",
+           "Students draw best-fit line on scatter and predict a value (35 min).",
+           "Exit ticket: prediction and short reason (10 min)."
+         ],
+         "time_min": 60,
+         "materials": ["scatter plot examples","ruler"],
+         "offline_alternative": "Hand-drawn scatter and line.",
+         "differentiation": {"support":"Guide to draw line.","core":"Draw line and predict.","extend":"Compare two different lines and discuss differences."}
+       }
+     ],
+     "assessment": "Predicted value with one-sentence reason.",
+     "reflection_questions": ["How confident are you in your prediction?"]
+   },
+   {
+     "week": 8,
+     "session": 2,
+     "learning_objective": "I can test my prediction against new data (train/test idea).",
+     "vocabulary": ["train","test","holdout","accuracy"],
+     "activities": [
+       {
+         "title": "Train/test split and evaluation",
+         "steps": [
+           "Explain splitting data (10 min).",
+           "Split 10 points into train/test; fit line on train (25 min).",
+           "Predict test and compute simple average error (30 min)."
+         ],
+         "time_min": 65,
+         "materials": ["data points","calculator or Sheets"],
+         "offline_alternative": "Paper calculations.",
+         "differentiation": {"support":"Worked example for error computation.","core":"Compute average error.","extend":"Compute percent error for each test point."}
+       }
+     ],
+     "assessment": "Worksheet computing prediction errors.",
+     "reflection_questions": ["Did the prediction get better or worse on new data?"]
+   },
+   {
+     "week": 9,
+     "session": 1,
+     "learning_objective": "No-code track: I can use Scratch lists to store data and draw a simple chart.",
+     "vocabulary": ["list","loop","variable","pen"],
+     "activities": [
+       {
+         "title": "Scratch list chart",
+         "steps": [
+           "Demo list creation and adding answers (10 min).",
+           "Build project to collect 10 answers into list (30 min).",
+           "Use loops to count categories and draw bars with pen (30 min)."
+         ],
+         "time_min": 70,
+         "materials": ["Scratch account or offline app"],
+         "offline_alternative": "Use paper lists and draw bars.",
+         "differentiation": {"support":"Starter Scratch project file.","core":"Collect and chart data in Scratch.","extend":"Add labels and percentages to bars."}
+       }
+     ],
+     "assessment": "Share project link or screenshot.",
+     "reflection_questions": ["How did the code help store your data?"]
+   },
+   {
+     "week": 9,
+     "session": 2,
+     "learning_objective": "Code track: I can open Colab, load a CSV, and plot a simple chart.",
+     "vocabulary": ["Python","notebook","pandas","matplotlib","CSV"],
+     "activities": [
+       {
+         "title": "Colab data load and chart",
+         "steps": [
+           "Open Colab and run a sample cell (10 min).",
+           "Upload CSV and run df.head() (20 min).",
+           "Group & count, then plot a bar chart (40 min)."
+         ],
+         "time_min": 70,
+         "materials": ["Google Colab","sample CSV"],
+         "offline_alternative": "Printed CSV and hand-drawn chart.",
+         "differentiation": {"support":"Copy-paste starter notebook.","core":"Load CSV and plot chart.","extend":"Add a second chart for comparison."}
+       }
+     ],
+     "assessment": "Notebook screenshot or exported image.",
+     "reflection_questions": ["What was one step that felt hard?"]
+   },
+   {
+     "week": 10,
+     "session": 1,
+     "learning_objective": "I can explain why models can be wrong and what fairness means.",
+     "vocabulary": ["bias","fairness","error","test set"],
+     "activities": [
+       {
+         "title": "Bias discussion and detection",
+         "steps": [
+           "Story example of bias (10 min).",
+           "Group work: find biases in a dataset (30 min).",
+           "Report and suggest fixes (20 min)."
+         ],
+         "time_min": 60,
+         "materials": ["example dataset","sticky notes"],
+         "offline_alternative": "Paper and group discussion.",
+         "differentiation": {"support":"List of common bias types.","core":"Identify bias and suggest fix.","extend":"Propose alternate data collection plan."}
+       }
+     ],
+     "assessment": "Write one bias and one fix.",
+     "reflection_questions": ["How could bias change results?"]
+   },
+   {
+     "week": 10,
+     "session": 2,
+     "learning_objective": "I can evaluate a simple model using accuracy and error examples.",
+     "vocabulary": ["accuracy","false positive","false negative","confusion"],
+     "activities": [
+       {
+         "title": "Model evaluation practice",
+         "steps": [
+           "Teach simple accuracy and mistake types (10 min).",
+           "Given predictions and actuals, compute accuracy (40 min).",
+           "Discuss which mistakes are worse and why (15 min)."
+         ],
+         "time_min": 65,
+         "materials": ["worksheet with predictions and actuals"],
+         "offline_alternative": "Paper and pencil calculations.",
+         "differentiation": {"support":"Calculation hints.","core":"Compute accuracy and explain.","extend":"Build simple confusion table."}
+       }
+     ],
+     "assessment": "Accuracy computation worksheet.",
+     "reflection_questions": ["Which mistake would you try to reduce first?"]
+   },
+   {
+     "week": 11,
+     "session": 1,
+     "learning_objective": "I can turn chart + numbers into a 2-minute story.",
+     "vocabulary": ["headline","insight","audience","takeaway"],
+     "activities": [
+       {
+         "title": "Data storytelling",
+         "steps": [
+           "Teach structure: headline, evidence, significance (10 min).",
+           "Write 2-minute script in pairs (40 min).",
+           "Practice with peer feedback (20 min)."
+         ],
+         "time_min": 70,
+         "materials": ["script template"],
+         "offline_alternative": "Paper script and oral practice.",
+         "differentiation": {"support":"Script starters.","core":"Write and practice script.","extend":"Make a 30-second video."}
+       }
+     ],
+     "assessment": "Peer feedback form.",
+     "reflection_questions": ["What is your single strongest claim?"]
+   },
+   {
+     "week": 11,
+     "session": 2,
+     "learning_objective": "I can prepare a short slide or poster for my project.",
+     "vocabulary": ["slide","poster","evidence","appendix"],
+     "activities": [
+       {
+         "title": "Create slides/poster",
+         "steps": [
+           "Share 3-slide template (Question → Chart → Conclusion) (10 min).",
+           "Build final slides or poster (45 min).",
+           "Teacher checklist review (15 min)."
+         ],
+         "time_min": 70,
+         "materials": ["slide template or poster paper"],
+         "offline_alternative": "Paper poster build.",
+         "differentiation": {"support":"Filled-in template.","core":"Create and polish slides.","extend":"Add a short video or interactive element."}
+       }
+     ],
+     "assessment": "Teacher checklist.",
+     "reflection_questions": ["What will you highlight in your presentation?"]
+   },
+   {
+     "week": 12,
+     "session": 1,
+     "learning_objective": "I can present my Data Detectives project and answer questions.",
+     "vocabulary": ["presentation","Q&A","feedback","rubric"],
+     "activities": [
+       {
+         "title": "Capstone presentations",
+         "steps": [
+           "Each student/team presents (5–8 min) and answers Q&A (2–3 min) (timing depends on class size).",
+           "Peers and teacher use rubric to give feedback.",
+           "Quick revision notes for each team after presentation."
+         ],
+         "time_min": 75,
+         "materials": ["slides or posters","rubric printouts"],
+         "offline_alternative": "Paper poster presentation.",
+         "differentiation": {"support":"Shorter presentation time if nervous.","core":"Full presentation and Q&A.","extend":"Include a brief live demo from code or sheet."}
+       }
+     ],
+     "assessment": "Final project rubric scoring.",
+     "reflection_questions": ["What was one thing you learned about working with data?"]
+   },
+   {
+     "week": 12,
+     "session": 2,
+     "learning_objective": "I can reflect on my learning and plan next steps.",
+     "vocabulary": ["reflection","goal","next steps","portfolio"],
+     "activities": [
+       {
+         "title": "Reflection and celebration",
+         "steps": [
+           "Complete reflection forms (20 min).",
+           "Share favorite discovery (15 min).",
+           "Plan one next step for each student (20 min)."
+         ],
+         "time_min": 55,
+         "materials": ["reflection form","certificate template"],
+         "offline_alternative": "Paper reflection and class talk.",
+         "differentiation": {"support":"Guided reflection questions.","core":"Complete reflection and set a goal.","extend":"Create a plan to continue learning with online resources."}
+       }
+     ],
+     "assessment": "Reflection form submission.",
+     "reflection_questions": ["What is one goal you have for using data next?"]
+   }
+ ],
+ "capstone_project": {
+   "description": "Pick a question, collect or use a dataset (30–100 rows), clean it, analyze it, make two charts, explain bias/fairness, and present findings in a short slide or poster.",
+   "rubric": {
+     "criteria": ["Understanding (clear question & conclusion)","Data work (cleaning & correct charts)","Creativity (interesting question & visuals)","Communication (clear story & Q&A response)"],
+     "levels": ["Novice","Proficient","Advanced"]
+   }
+ }
+}
